@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.flex-container{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    width: 820px;
+    height: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.flex-header{
+    display: flex;
+    background-color: rgb(124, 9, 9);
+    width: 820px;
+    height: 150px;
+    justify-content: end;
+}
+.flex-header{
+    display: flex;
+    color: white;
+    padding-right: 20px;
+    padding-top: 35px;
+}
+.flex-content{
+    display: flex;
+    background-color: white;
+    width: 800px;
+    height: 850px;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+.left-part{
+    display: flex;
+    width: 40%;
+    height: 850px;
+    flex-direction: column;
+}
+.contact{
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.contact-details{
+    padding: 10px;
+    line-height: 30px;
+}
+.hardskill{
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.hardskill-details,.softskill-details,.education-details{
+    padding-left: 30px;
+    line-height: 30px;
+}
+.softskill{
+    width: 300px;
+    height: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.education{
+    width: 300px;
+    height: 180px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.right-part{
+    display: flex;
+    width: 60%;
+    height: 850px;
+    flex-direction: column;
+}
+.about-me{
+        width: 450px;
+        height: 200px;
+}
+.aboutme-details{
+    padding-left:10px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.professional{
+    width: 450px;
+    height: 600px;
+    margin-top: 30px;
+}
+.professional-details{
+    padding-left:10px;
+    line-height: 20px;
+    margin-left: 20px;
+
+}
+hr{
+    background-color: rgb(143, 3, 3);
+    width: 250px;
+    height: 2%;
+    margin-left: 30px;
+}
+h3{
+    color: rgb(143, 3, 3);
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    width: 15px;
+    height: 15px;
+}
